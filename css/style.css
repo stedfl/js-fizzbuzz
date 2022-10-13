@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #083b4c;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3rem;
+}
+
+.container {
+  margin: 2rem auto;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.just-number {
+  background-color:#1389b2;
+}
+
+.fizz-number {
+  background-color: #0cd6a1;
+}
+
+.buzz-number {
+  background-color: #ffd166;
+}
+
+.fizzbuzz-number {
+  background-color: #c03859;
+}
