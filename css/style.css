@@ -8,8 +8,12 @@ body {
   background-color: #083b4c;
   color: white;
   text-align: center;
-  text-transform: uppercase;
   padding: 3rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
 }
 
 .container {
@@ -17,6 +21,7 @@ body {
   width: 800px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .box {
@@ -26,6 +31,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 }
 
 .just-number {
